@@ -1,4 +1,4 @@
-// Average Temperature using Single Dimension Arrays
+// Average Temperature using Single Dimension Array
 // Rob Vatcher
 // May 14th, 2024
 
