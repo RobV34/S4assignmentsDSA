@@ -4,14 +4,14 @@
 
 
 
+import java.util.Arrays;
+
 public class SingleDimensionArray {
-    int arr[] = null;
+    private int[] arr;
 
     public SingleDimensionArray(int sizeOfArray) {
         arr = new int[sizeOfArray];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = Integer.MIN_VALUE;
-        }
+        Arrays.fill(arr, Integer.MIN_VALUE);
     }
 
     public void insert(int location, int valueToInsert) {
